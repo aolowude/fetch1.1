@@ -3,6 +3,7 @@ import { render } from "react-dom";
 import { Header } from "./Header";
 import { CardList } from "./CardList";
 
+import 'antd/dist/antd.css';
 import "./styles.css";
 
 function App() {

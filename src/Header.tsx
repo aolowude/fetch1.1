@@ -1,12 +1,13 @@
 import * as React from "react";
 import { Avatar } from "react-lorem-ipsum";
+import { SearchDropdown } from "./components/SearchDropdown";
 
 export const Header = () => (
   <header>
-    <span className="date">Tuesday, August 13th</span>
+    <span className="date">{new Date().toDateString()}</span>
     <h1>Today</h1>
     <div className="avatar">
-      <Avatar />
+      <SearchDropdown />
     </div>
   </header>
 );
